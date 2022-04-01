@@ -18,4 +18,4 @@ import numpy as np
 x = np.linspace(-10,10,100,dtype=float)
 y = np.sin(x)
 p = plt.plot(x,y)
-st.lipyplot(p)
+st.pyplot(p)
