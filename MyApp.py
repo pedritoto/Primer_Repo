@@ -40,3 +40,9 @@ with st.form("my_form"):
         st.write("slider", slider_val, "checkbox", checkbox_val)
 
 st.write("Outside the form")
+
+
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
