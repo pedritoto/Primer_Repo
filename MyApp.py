@@ -17,5 +17,5 @@ st.image('1tqn-min.png', caption='Sunrise by the mountains')
 import numpy as np
 x = np.linspace(-10,10,100,dtype=float)
 y = np.sin(x)
-data = [y,x]
+data = [y]
 st.line_chart(data)
