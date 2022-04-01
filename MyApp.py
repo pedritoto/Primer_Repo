@@ -13,3 +13,9 @@ ax.hist(arr, bins=20)
 
 fig
 st.image('1tqn-min.png', caption='Sunrise by the mountains')
+
+import numpy as np
+x = np.linespace(-10,10,100,type=float)
+y = np.sin(x)
+data = [x,y]
+st.line_chart(data)
