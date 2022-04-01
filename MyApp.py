@@ -47,6 +47,8 @@ with st.sidebar:
         "Choose a shipping method",
         ("Standard (5-15 days)", "Express (2-5 days)")
     )
+    if add_radio=='Standard (5-15 days)':
+        st.latex("\int_0^7")
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
