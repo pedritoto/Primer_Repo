@@ -18,4 +18,5 @@ import numpy as np
 x = np.linspace(-10,10,100,dtype=float)
 y = np.sin(x)
 plt.plot(x,y)
-plt.show()
+fig = plt.show()
+fig
