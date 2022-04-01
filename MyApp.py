@@ -12,4 +12,4 @@ fig, ax = plt.subplots()
 ax.hist(arr, bins=20)
 
 fig
-st.image('1tqn-min.png')
+st.image('1tqn-min.png', caption='Sunrise by the mountains')
