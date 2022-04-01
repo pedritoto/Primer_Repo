@@ -49,8 +49,8 @@ if add_radio=='Standard (5-15 days)':
 
          # Every form must have a submit button.
           submitted = st.form_submit_button("Submit")
-           if submitted:
-              st.write("slider", slider_val, "checkbox", checkbox_val)  
+          if submitted:
+            st.write("slider", slider_val, "checkbox", checkbox_val)  
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Email", "Home phone", "Mobile phone")
