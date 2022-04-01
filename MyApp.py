@@ -1,4 +1,4 @@
 import streamlit as st
 st.title('Hello')
 st.button('Click aquí')
-st.ballons()
+st.balloons()
