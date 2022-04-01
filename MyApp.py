@@ -19,3 +19,12 @@ y = np.sin(x)
 fig, ax = plt.subplots()
 ax.plot(x,y)
 fig
+
+import time
+
+my_bar = st.progress(0)
+
+for percent_complete in range(100):
+     time.sleep(0.1)
+     my_bar.progress(percent_complete + 1)
+     
